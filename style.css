@@ -1,0 +1,363 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  top: 0px;
+  left: 100px;
+  z-index: 100;
+}
+.tabs a{
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+}
+
+.tabs a:hover,
+.tabs a.active {
+color: #0d0d0d;
+}
+
+
+.Bags{
+  position: absolute;
+  top: 104.5px;
+}
+
+.Bags1{
+  position: absolute;
+  top: 104.5px;
+  left: 500px;
+}
+
+.Bags2{
+  position: absolute;
+  top: 104.5px;
+  left: 870px;
+}
+
+.Bags3{
+  position: absolute;
+  top: 104.5px;
+  left: 1240px;
+}
+
+.Bags4{
+  position: absolute;
+  top: 104.5px;
+  left: 1595px;  
+}
+
+
+
+
+
+.Purse{
+  position: absolute;
+  top: 380px;
+
+}
+
+.Purse1{
+  position: absolute;
+  top: 380px;
+  left: 500px;
+
+}
+
+.Purse2{
+  position: absolute;
+  top: 380px;
+  left: 870px;
+
+}
+.Purse3{
+  position: absolute;
+  top: 380px;
+  left: 1240px;
+
+}
+.Purse4{
+  position: absolute;
+  top: 380px;
+  left: 1595px;
+
+}
+
+.Shoes{
+  position: absolute;
+  top: 750.5px;
+}
+.Shoes1{
+  position: absolute;
+  top: 750.5px;
+  left:500px;
+}
+.Shoes2{
+  position: absolute;
+  top: 750.5px;
+  left:870px;
+}
+
+.Shoes3{
+  position: absolute;
+  top: 750.5px;
+  left: 1240px;
+}
+.Shoes4{
+  position: absolute;
+  top: 750.5px;
+  left: 1595px;
+}
+
+
+
+
+.Boots{
+    position: absolute;
+    top: 1010.5px;
+  }
+
+.Boots1{
+  position: absolute;
+  top: 1010.5px;
+  left: 500px;
+}
+
+.Boots2{
+  position: absolute;
+  top: 1010.5px;
+  left: 870px;
+}
+
+.Boots3{
+  position: absolute;
+  top: 1010.5px;
+  left: 1240px;
+}
+
+.Boots4{
+  position: absolute;
+  top: 1010.5px;
+  left: 1595px;
+}
+
+
+
+.Watch{
+  position: absolute;
+  top: 1374.5px;
+}
+.Watch1{
+  position: absolute;
+  top: 1374.5px;
+  left: 500px;
+}
+.Watch2{
+  position: absolute;
+  top: 1374.5px;
+  left: 870px;
+}
+.Watch3{
+  position: absolute;
+  top: 1374.5px;
+  left: 1240px;
+}
+.Watch4{
+  position: absolute;
+  top: 1374.5px;
+  left: 1595px;
+}
+
+:root {
+  --main-color: #000000;
+}
+
+.Cart{
+
+  position: fixed;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+
+
+.Cart a {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Cart a:hover {
+  color: #824040;
+}
+
+.Cart a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100px;
+  background: #ffffff;
+  z-index: -1;
+  transition: .5s;
+}
+
+.Cart a:hover::before {
+  width: 100%;
+}
+
+
+.Cart1{
+
+  position: fixed;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+
+
+.Cart1 a {
+  position: fixed;
+  top: 20px;
+  right: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Cart1 a:hover {
+  color: #824040;
+}
+
+.Cart1 a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100px;
+  background: #ffffff;
+  z-index: -1;
+  transition: .5s;
+}
+
+.Cart1 a:hover::before {
+  width: 100%;
+}
+
+.Text {
+  position: absolute;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 1px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  align-items: center;
+  animation: typewriter 2.5s steps(73) 0.3s 1 normal both,
+    blinkTextCursor 2000ms infinite;
+  z-index: 100;
+  left: 1620px;
+  top: 6px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.add-to-cart-btn {
+  position: absolute;
+    background-color: #999999;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 0px;
+    cursor: pointer;
+  top: 320px; 
+  left: 600px; z-index: 100;
+}
+
+/* Add styles for the cart icon */
+.cart-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#cart-count {
+    background-color: #ff1f1f;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
